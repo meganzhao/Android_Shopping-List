@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidMa
 		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/zhaozhaoxia/.android/build-cache/747fb73747267fd4912eab501b1bb1f1bf876c15/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/zhaozhaoxia/.android/build-cache/bf66a5f4c7fcc27ad7e5affa9635d1fb183353c7/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/zhaozhaoxia/.android/build-cache/86cd9a16de7030913f3929cc4ad3eabdc83b3fe3/output/AndroidManifest.xml:29:5-20
@@ -53,6 +53,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:17:27-74
+activity#hu.ait.android.shoppinglist.MainActivity
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:20:9-59
+	android:name
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:20:19-47
+activity#hu.ait.android.shoppinglist.AddItemActivity
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:21:19-50
 uses-sdk
 INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/zhaozhaoxia/.android/build-cache/747fb73747267fd4912eab501b1bb1f1bf876c15/output/AndroidManifest.xml:21:5-23:78

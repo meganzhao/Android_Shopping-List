@@ -28,6 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="hu.ait.android.shoppinglist.MainActivity" />
+        <activity android:name="hu.ait.android.shoppinglist.AddItemActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
