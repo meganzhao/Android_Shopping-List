@@ -3,16 +3,37 @@ package hu.ait.android.shoppinglist;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import hu.ait.android.shoppinglist.adapter.ListRecyclerAdapter;
+import hu.ait.android.shoppinglist.touch.ShoppingItemTouchHelperCallback;
+
 public class MainActivity extends AppCompatActivity {
+
+    private ListRecyclerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        RecyclerView recyclerViewList = findViewById(R.id.recyclerItem);
+        adapter = new ListRecyclerAdapter();
+        recyclerViewList.setLayoutManager(new LinearLayoutManager(this));
+        recyclerViewList.setHasFixedSize(true);
+
+        ItemTouchHelper.Callback callback = new ShoppingItemTouchHelperCallback(adapter);
+        ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
+        touchHelper.attachToRecyclerView(recyclerViewList);
+
+        recyclerViewList.setAdapter(adapter);
+
+
     }
 
     @Override
@@ -33,4 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
 }

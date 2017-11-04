@@ -8,10 +8,6 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="26" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,6 +26,13 @@
         </activity>
         <activity android:name="hu.ait.android.shoppinglist.MainActivity" />
         <activity android:name="hu.ait.android.shoppinglist.AddItemActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

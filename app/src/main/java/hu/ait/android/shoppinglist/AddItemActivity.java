@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by zhaozhaoxia on 11/4/17.
  */
 
-public class AddItemActivity extends AppCompatActivity{
+public class AddItemActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

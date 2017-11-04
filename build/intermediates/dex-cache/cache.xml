@@ -3,12 +3,120 @@
 
     <item
         is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/239bd40a62cde942a6ffef36ae029ffa8d26799b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_00442348c1c78433d3a581bef83b8d4f4f80a345/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/12a8a11fc526b57c264a56c7cc9a0c8f9d6ff7e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94db9dea719ff8e33f8b018d08d21452ba390df1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/baef224c31ce3bbf77c55b36fb11135d28025deb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="74e047f9984073c239398a2214d4fff829ff7b99">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62bfb242411a111564e4e307733a96f9db734191/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_778506b638e68fb4bb20883830f7b1d790109a21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea980129d811a61a78b0bc864b82dcea37b4b295/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ab52845ade9ed603c69d7d8e727906c7ec5e130/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="07dd45002b814b0578cc82498f3ea65e4badcb1c">
+        sha1="46166305dc0adb824a3af51b2449ea0c818ef539">
         <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbe5d484dc40bed55d85949d08c55a5eff096174/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/351a8cb3ab0274d53b41a0ae64669fd0aaaff09b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28a61d6a0e86f23718e98868a1e1d735d1a71211/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28c444164ee0c14650032e804f1d1ca5d800576f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_4d323c3de28ff7b5727167219d94d1928d292622/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6869c33ac56c1c783d85e430802d964e26e37865/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.1.0_d47ad7e011bb81b1eb6033ceb95075fa5c89246c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47806811b727dccad08ada568f9f6c640d294e0e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +126,69 @@
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1e72963b5562201b0f5117d994c91b73152f320/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47dc6157954b624ee9b9449e36e07cdd579db95c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_4fb19c2e7cf0b255f11676ac87b1138419b149e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be319d2c76a0ed5a4aa8de6c381d670c48133795/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/f2672fac39a6155bfd8d8e6fe3f19167c32cf19b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88f3fab0fb7aa54ea04ef8c9683052ba90009d94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.gradle/caches/modules-2/files-2.1/com.flaviofaria/kenburnsview/1.0.7/ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1/kenburnsview-1.0.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/kenburnsview-1.0.7_ff8546a1c4e33b5098dbfd8393ea3b009bfdaafd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f18577c378e95e225e132d153113017030ad2218/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhaozhaoxia/.android/build-cache/6a7d92dad93582dedd4cce6a2d348d0775fb217c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94c428b007d577b5d36ca17225464815a4f47d58/classes.dex" />
     </item>
 
 </items>
