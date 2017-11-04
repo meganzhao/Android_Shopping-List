@@ -1,0 +1,7 @@
+#Sat Nov 04 09:47:46 CET 2017
+base.0=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1e72963b5562201b0f5117d994c91b73152f320
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbe5d484dc40bed55d85949d08c55a5eff096174/classes.dex
+base.1=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbe5d484dc40bed55d85949d08c55a5eff096174
+file.0=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1e72963b5562201b0f5117d994c91b73152f320/classes.dex

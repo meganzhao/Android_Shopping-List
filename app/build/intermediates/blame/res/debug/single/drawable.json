@@ -96,6 +96,10 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/747fb73747267fd4912eab501b1bb1f1bf876c15/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/background_splash.xml",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/drawable/background_splash.xml"
+    },
+    {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/747fb73747267fd4912eab501b1bb1f1bf876c15/output/res/drawable/abc_btn_radio_material.xml"
     },
