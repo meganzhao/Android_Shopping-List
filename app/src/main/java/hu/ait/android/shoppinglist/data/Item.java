@@ -2,6 +2,7 @@ package hu.ait.android.shoppinglist.data;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
+import io.realm.annotations.Required;
 
 /**
  * Created by zhaozhaoxia on 11/4/17.
@@ -9,12 +10,19 @@ import io.realm.annotations.PrimaryKey;
 
 public class Item extends RealmObject {
     @PrimaryKey
+    @Required
     private String itemId;
 
     private String name;
+
+
+
+
+    private String category;
     private double price;
     private String note;
     private boolean isPurchased;
+
 
     public Item(){}
 
@@ -31,6 +39,13 @@ public class Item extends RealmObject {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+    public String getCategory() {
+        return category;
     }
 
     public double getPrice() {
@@ -57,6 +72,9 @@ public class Item extends RealmObject {
         this.isPurchased = isPurchased;
     }
 
+    public void setItemId(String updatedItemId) {
+        itemId = updatedItemId;
+    }
 
     public String getItemId() {
         return itemId;

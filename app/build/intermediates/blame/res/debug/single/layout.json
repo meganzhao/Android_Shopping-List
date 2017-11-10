@@ -24,12 +24,12 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -60,12 +60,12 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",

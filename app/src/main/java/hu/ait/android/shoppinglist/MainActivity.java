@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String ITEM_ISPURCHASED = "ITEM_ISPURCHASED";
     public static final String ITEM_PRICE = "ITEM_PRICE";
     public static final String ITEM_NOTE = "ITEM_NOTE";
+    public static final String ITEM_CATEGORY = "ITEM_CATEGORY";
     private ListRecyclerAdapter adapter;
     private int positionToEdit;
 
@@ -81,10 +82,11 @@ public class MainActivity extends AppCompatActivity {
                 adapter.updateItem(itemIdThatWasEdited, positionToEdit);
             } else {
                 String itemName = data.getStringExtra(ITEM_NAME);
+                String itemCategory = data.getStringExtra(ITEM_CATEGORY);
                 Double itemPrice = data.getDoubleExtra(ITEM_PRICE, 0.0);
                 String itemNote = data.getStringExtra(ITEM_NOTE);
                 boolean isPurchased = data.getBooleanExtra(ITEM_ISPURCHASED, false);
-                adapter.addItem(itemName,itemPrice,itemNote,isPurchased);
+                adapter.addItem(itemName,itemCategory,itemPrice,itemNote,isPurchased);
             }
 
 
@@ -100,11 +102,10 @@ public class MainActivity extends AppCompatActivity {
             openEditActivityToAddItem();
         }
         if (item.getItemId() == R.id.delete_list){
-
+            adapter.deleteList();
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 
 }

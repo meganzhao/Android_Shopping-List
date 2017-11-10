@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
 
@@ -37,7 +39,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
         this.context = context;
         this.realm = realm;
 
-        itemList = new ArrayList<Item>();
+        itemList = new ArrayList<>();
         RealmResults<Item> itemResult = realm.where(Item.class).findAll();
 
         for (Item item: itemResult){
@@ -58,14 +60,16 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
     public void onBindViewHolder(final ViewHolder holder, int position) {
         final Item itemData = itemList.get(position);
         holder.tvName.setText(itemData.getName());
+        holder.tvCategory.setText(itemData.getCategory());
         holder.tvPrice.setText(Double.toString(itemData.getPrice()));
         holder.tvNote.setText(itemData.getNote());
         holder.cbPurchased.setChecked(itemData.isPurchased());
-        holder.cbPurchased.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+        holder.cbPurchased.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+            public void onClick(View view) {
                 realm.beginTransaction();
-                itemData.setIsPurchased(isChecked);
+                itemData.setIsPurchased(!itemData.isPurchased());
                 realm.commitTransaction();
             }
         });
@@ -89,7 +93,14 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
 
     @Override
     public void onItemDismiss(int position) {
-        //Item itemToDelete = itemList.get(position);
+        String itemDismissId = itemList.get(position).getItemId();
+        realm.beginTransaction();
+
+        Item itemToBeDeleted = realm.where(Item.class).
+                equalTo("itemId", itemDismissId).findFirst();
+        itemToBeDeleted.deleteFromRealm();
+
+        realm.commitTransaction();
 
         itemList.remove(position);
         notifyItemRemoved(position);
@@ -97,7 +108,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
 
     @Override
     public void onItemMove(int fromPosition, int toPosition) {
-
+        //itemMoveInRealm(fromPosition, toPosition);
         if (fromPosition < toPosition) {
             for (int i = fromPosition; i < toPosition; i++) {
                 Collections.swap(itemList,i,i+1);
@@ -109,13 +120,36 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
         }
         notifyItemMoved(fromPosition,toPosition);
     }
+//
+//    private void itemMoveInRealm(int fromPosition, int toPosition) {
+//        realm.beginTransaction();
+//        Item fromItem = realm.where(Item.class).equalTo("itemId", itemList.get(fromPosition).getItemId()).findFirst();
+//        if (fromPosition < toPosition) {
+//            RealmResults<Item> results = realm.where(Item.class)
+//                                                .greaterThan("itemId", fromPosition)
+//                                                .lessThanOrEqualTo("itemId", toPosition)
+//                                                .findAll();
+//            for (int i = 0; i < results.size(); i++) {
+//                //results.get(i).
+//            }
+//        }
+//        itemResult = realm.where(Item.class).findAll();
+//
+//        Item toItem = realm.where(Item.class).equalTo("itemId", itemList.get(toPosition).getItemId()).findFirst();
+//        Item tempItem = new Item(fromItem.getName(),fromItem.getPrice(),
+//                fromItem.getNote(), fromItem.isPurchased());
+//
+//
+//        realm.commitTransaction();
+//    }
 
-    public void addItem(String itemName, double itemPrice, String itemNote, boolean isPurchased) {
+    public void addItem(String itemName, String itemCategory, double itemPrice, String itemNote, boolean isPurchased) {
         realm.beginTransaction();
 
         Item newItem = realm.createObject(Item.class, UUID.randomUUID().toString());
 
         newItem.setName(itemName);
+        newItem.setCategory(itemCategory);
         newItem.setPrice(itemPrice);
         newItem.setNote(itemNote);
         newItem.setIsPurchased(isPurchased);
@@ -133,10 +167,19 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
         notifyItemChanged(positionToEdit);
     }
 
+    public void deleteList() {
+        realm.beginTransaction();
+        itemList.clear();
+        notifyDataSetChanged();
+        realm.deleteAll();
+        realm.commitTransaction();
+    }
+
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvName;
+        private TextView tvCategory;
         private TextView tvPrice;
         private TextView tvNote;
         private CheckBox cbPurchased;
@@ -146,6 +189,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
             super(itemView);
 
             tvName = itemView.findViewById(R.id.tvName);
+            tvCategory = itemView.findViewById(R.id.tvCategory);
             tvPrice = itemView.findViewById(R.id.tvPrice);
             tvNote = itemView.findViewById(R.id.tvNote);
             cbPurchased = itemView.findViewById(R.id.cbPurchased);
