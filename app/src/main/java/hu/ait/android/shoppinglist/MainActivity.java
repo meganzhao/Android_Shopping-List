@@ -15,15 +15,25 @@ import hu.ait.android.shoppinglist.touch.ShoppingItemTouchHelperCallback;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String KEY_ITEM_ID = "KEY_ITEM_ID";
+    public static final int REQUEST_CODE = 1001;
+    public static final String ITEM_NAME = "ITEM_NAME";
+    public static final String ITEM_ISPURCHASED = "ITEM_ISPURCHASED";
+    public static final String ITEM_PRICE = "ITEM_PRICE";
+    public static final String ITEM_NOTE = "ITEM_NOTE";
     private ListRecyclerAdapter adapter;
+    private int positionToEdit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ((ListApplication)getApplication()).openRealm();
+
         RecyclerView recyclerViewList = findViewById(R.id.recyclerItem);
-        adapter = new ListRecyclerAdapter();
+        adapter = new ListRecyclerAdapter(this,
+                ((ListApplication)getApplication()).getRealm());
         recyclerViewList.setLayoutManager(new LinearLayoutManager(this));
         recyclerViewList.setHasFixedSize(true);
 
@@ -33,7 +43,13 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerViewList.setAdapter(adapter);
 
+    }
 
+    @Override
+    protected void onDestroy() {
+        ((ListApplication)getApplication()).closeRealm();
+
+        super.onDestroy();
     }
 
     @Override
@@ -43,11 +59,45 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    public void openEditActivity (int adapterPosition, String itemId) {
+        positionToEdit = adapterPosition;
+
+        Intent intentEdit = new Intent(this, EditItemActivity.class);
+        intentEdit.putExtra(KEY_ITEM_ID, itemId);
+
+        startActivityForResult(intentEdit, REQUEST_CODE);
+    }
+
+    public void openEditActivityToAddItem (){
+        Intent intentAdd = new Intent(this, EditItemActivity.class);
+        startActivityForResult(intentAdd,  REQUEST_CODE);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
+            if (data.hasExtra(KEY_ITEM_ID)) {
+                String itemIdThatWasEdited = data.getStringExtra(KEY_ITEM_ID);
+                adapter.updateItem(itemIdThatWasEdited, positionToEdit);
+            } else {
+                String itemName = data.getStringExtra(ITEM_NAME);
+                Double itemPrice = data.getDoubleExtra(ITEM_PRICE, 0.0);
+                String itemNote = data.getStringExtra(ITEM_NOTE);
+                boolean isPurchased = data.getBooleanExtra(ITEM_ISPURCHASED, false);
+                adapter.addItem(itemName,itemPrice,itemNote,isPurchased);
+            }
+
+
+        }
+    }
+
+
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.add_item){
-            Intent intent = new Intent(this, AddItemActivity.class);
-            startActivity(intent);
+            openEditActivityToAddItem();
         }
         if (item.getItemId() == R.id.delete_list){
 

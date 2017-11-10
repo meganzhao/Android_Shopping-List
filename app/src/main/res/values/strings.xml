@@ -6,6 +6,6 @@
     <string name="enter_estimated_price">Enter estimated price</string>
     <string name="add_a_note">Add a note...</string>
     <string name="already_purchased">Already purchased</string>
-    <string name="btn_add_item">Add Item</string>
+    <string name="btnSave">Save</string>
     <string name="purchased">Purchased</string>
 </resources>
