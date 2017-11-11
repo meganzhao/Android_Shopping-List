@@ -61,16 +61,16 @@ public class EditItemActivity extends AppCompatActivity {
                                               @Override
                                               public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                                                   categorySelected = adapterView.getItemAtPosition(i).toString();
-                                              };
+                                              }
 
                                               @Override
                                               public void onNothingSelected(AdapterView<?> adapterView) {
                                                   categorySelected = "N/A";
-                                              };
+                                              }
                                           });
 
 
-//
+
 
 
         if (getIntent().hasExtra(MainActivity.KEY_ITEM_ID)) {

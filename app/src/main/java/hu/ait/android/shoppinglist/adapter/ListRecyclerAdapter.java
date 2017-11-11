@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -60,7 +61,8 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
     public void onBindViewHolder(final ViewHolder holder, int position) {
         final Item itemData = itemList.get(position);
         holder.tvName.setText(itemData.getName());
-        holder.tvCategory.setText(itemData.getCategory());
+        //lots of if statement
+        //holder.ivCategory.setText(itemData.getCategory());
         holder.tvPrice.setText(Double.toString(itemData.getPrice()));
         holder.tvNote.setText(itemData.getNote());
         holder.cbPurchased.setChecked(itemData.isPurchased());
@@ -179,7 +181,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvName;
-        private TextView tvCategory;
+        private ImageView ivCategory;
         private TextView tvPrice;
         private TextView tvNote;
         private CheckBox cbPurchased;
@@ -189,7 +191,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
             super(itemView);
 
             tvName = itemView.findViewById(R.id.tvName);
-            tvCategory = itemView.findViewById(R.id.tvCategory);
+            ivCategory = itemView.findViewById(R.id.ivCategory);
             tvPrice = itemView.findViewById(R.id.tvPrice);
             tvNote = itemView.findViewById(R.id.tvNote);
             cbPurchased = itemView.findViewById(R.id.cbPurchased);

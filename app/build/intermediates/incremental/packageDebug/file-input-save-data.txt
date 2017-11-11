@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 11 03:17:48 CET 2017
+#Sat Nov 11 18:02:50 CET 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password.xml
 14.set=ANDROID_RESOURCE

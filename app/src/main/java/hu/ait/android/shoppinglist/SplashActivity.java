@@ -11,6 +11,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 /**
  * Created by zhaozhaoxia on 11/4/17.
  */
@@ -24,10 +27,16 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         StartAnimation();
 
-        //timer
-//        Intent intent = new Intent(this, MainActivity.class);
-//        startActivity(intent);
-//        finish();
+        Timer timer = new Timer();
+       final Intent intent = new Intent(this, MainActivity.class);
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+              startActivity(intent);
+                finish();
+            }
+        }, 3000);
+
     }
 
     private void StartAnimation() {

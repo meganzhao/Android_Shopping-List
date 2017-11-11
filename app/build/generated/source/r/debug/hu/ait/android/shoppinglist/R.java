@@ -3860,6 +3860,7 @@ containing a value of this type.
         public static final int info=0x7f0d00c4;
         public static final int italic=0x7f0d002d;
         public static final int item_touch_helper_previous_elevation=0x7f0d0006;
+        public static final int ivCategory=0x7f0d00b2;
         public static final int largeLabel=0x7f0d00a5;
         public static final int left=0x7f0d004e;
         public static final int line1=0x7f0d0007;
@@ -3958,8 +3959,7 @@ containing a value of this type.
         public static final int transition_position=0x7f0d0018;
         public static final int transition_scene_layoutid_cache=0x7f0d0019;
         public static final int transition_transform=0x7f0d001a;
-        public static final int tvCategory=0x7f0d00b3;
-        public static final int tvName=0x7f0d00b2;
+        public static final int tvName=0x7f0d00b3;
         public static final int tvNote=0x7f0d00b5;
         public static final int tvPrice=0x7f0d00b4;
         public static final int uniform=0x7f0d0045;
