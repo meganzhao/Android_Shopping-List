@@ -8,10 +8,6 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/anim/splash_anim.xml",
-        "source": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/anim/splash_anim.xml"
-    },
-    {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/anim/abc_popup_exit.xml"
     },
@@ -40,8 +36,16 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/anim/design_snackbar_in.xml"
     },
     {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/anim/translate.xml",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/anim/translate.xml"
+    },
+    {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/anim/alpha.xml",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/anim/alpha.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
