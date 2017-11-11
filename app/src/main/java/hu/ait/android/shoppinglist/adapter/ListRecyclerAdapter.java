@@ -63,6 +63,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
         holder.tvName.setText(itemData.getName());
         //lots of if statement
         //holder.ivCategory.setText(itemData.getCategory());
+        holder.ivCategory.setImageResource(R.drawable.art);
         holder.tvPrice.setText(Double.toString(itemData.getPrice()));
         holder.tvNote.setText(itemData.getNote());
         holder.cbPurchased.setChecked(itemData.isPurchased());

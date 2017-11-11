@@ -50,7 +50,7 @@ public class EditItemActivity extends AppCompatActivity {
         categories.add("Drugs");
         categories.add("Electronics");
         categories.add("Gift");
-        categories.add("Grocery");
+        categories.add("Food");
         categories.add("Pet");
 
         ArrayAdapter<String> categoryAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, categories);

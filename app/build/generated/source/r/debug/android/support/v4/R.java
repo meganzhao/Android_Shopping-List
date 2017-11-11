@@ -53,18 +53,18 @@ public final class R {
         public static final int notification_top_pad_large_text = 0x7f080095;
     }
     public static final class drawable {
-        public static final int notification_action_background = 0x7f02005f;
-        public static final int notification_bg = 0x7f020060;
-        public static final int notification_bg_low = 0x7f020061;
-        public static final int notification_bg_low_normal = 0x7f020062;
-        public static final int notification_bg_low_pressed = 0x7f020063;
-        public static final int notification_bg_normal = 0x7f020064;
-        public static final int notification_bg_normal_pressed = 0x7f020065;
-        public static final int notification_icon_background = 0x7f020066;
-        public static final int notification_template_icon_bg = 0x7f02006b;
-        public static final int notification_template_icon_low_bg = 0x7f02006c;
-        public static final int notification_tile_bg = 0x7f020067;
-        public static final int notify_panel_notification_icon_bg = 0x7f020068;
+        public static final int notification_action_background = 0x7f020061;
+        public static final int notification_bg = 0x7f020062;
+        public static final int notification_bg_low = 0x7f020063;
+        public static final int notification_bg_low_normal = 0x7f020064;
+        public static final int notification_bg_low_pressed = 0x7f020065;
+        public static final int notification_bg_normal = 0x7f020066;
+        public static final int notification_bg_normal_pressed = 0x7f020067;
+        public static final int notification_icon_background = 0x7f020068;
+        public static final int notification_template_icon_bg = 0x7f02006d;
+        public static final int notification_template_icon_low_bg = 0x7f02006e;
+        public static final int notification_tile_bg = 0x7f020069;
+        public static final int notify_panel_notification_icon_bg = 0x7f02006a;
     }
     public static final class id {
         public static final int action0 = 0x7f0d00ba;
