@@ -17,19 +17,19 @@ application
 ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.android/build-cache/43e9c78fd40b0ae4b3c327a3a348d14dbc250edd/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.android/build-cache/12a8a11fc526b57c264a56c7cc9a0c8f9d6ff7e9/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f2672fac39a6155bfd8d8e6fe3f19167c32cf19b/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.android/build-cache/239bd40a62cde942a6ffef36ae029ffa8d26799b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.android/build-cache/6a7d92dad93582dedd4cce6a2d348d0775fb217c/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/AndroidManifest.xml:25:5-29:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.android/build-cache/351a8cb3ab0274d53b41a0ae64669fd0aaaff09b/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/AndroidManifest.xml:22:5-26:19
 	android:label
 		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:9:9-41
 	android:supportsRtl
@@ -72,20 +72,22 @@ MERGED from [io.realm:realm-android-library:3.0.0] /Users/zhaozhaoxia/.android/b
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/zhaozhaoxia/.android/build-cache/74ee2a409d2ae0e2886f446e8a2de3ca8a1b3138/output/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.android/build-cache/43e9c78fd40b0ae4b3c327a3a348d14dbc250edd/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.android/build-cache/12a8a11fc526b57c264a56c7cc9a0c8f9d6ff7e9/output/AndroidManifest.xml:20:5-44
+MERGED from [uk.co.samuelwall:material-tap-target-prompt:2.3.0] /Users/zhaozhaoxia/.android/build-cache/baef224c31ce3bbf77c55b36fb11135d28025deb/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.rey5137:material:1.2.4] /Users/zhaozhaoxia/.android/build-cache/4ef92e0fa7b4d0615f001da8305f89f6747b3e24/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/AndroidManifest.xml:20:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/zhaozhaoxia/.android/build-cache/2f9571a4c5b1dd23054a3fed26d34db8cb157942/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f2672fac39a6155bfd8d8e6fe3f19167c32cf19b/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.android/build-cache/239bd40a62cde942a6ffef36ae029ffa8d26799b/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.android/build-cache/6a7d92dad93582dedd4cce6a2d348d0775fb217c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.android/build-cache/351a8cb3ab0274d53b41a0ae64669fd0aaaff09b/output/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/AndroidManifest.xml:20:5-44
-MERGED from [uk.co.samuelwall:material-tap-target-prompt:2.3.0] /Users/zhaozhaoxia/.android/build-cache/baef224c31ce3bbf77c55b36fb11135d28025deb/output/AndroidManifest.xml:23:5-25:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -96,18 +98,18 @@ MERGED from [uk.co.samuelwall:material-tap-target-prompt:2.3.0] /Users/zhaozhaox
 		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.android/build-cache/12a8a11fc526b57c264a56c7cc9a0c8f9d6ff7e9/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/a3f1f54c2d9d2ac82ca6c361046964cdd932a0d8/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f2672fac39a6155bfd8d8e6fe3f19167c32cf19b/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.android/build-cache/239bd40a62cde942a6ffef36ae029ffa8d26799b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.android/build-cache/6a7d92dad93582dedd4cce6a2d348d0775fb217c/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/88274378f40c71ab556e4a51be826be0fafb569b/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.android/build-cache/3dab1711c6dfbb116934b8ae66f33af6493ea1e5/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.android/build-cache/eb57ad94e6bc8d0d63de4fffeca9cce44d478730/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.android/build-cache/f878959ee465f7fc83c4f5292e5a569607ce55cb/output/AndroidManifest.xml:23:9-25:38
 	android:value
 		ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:28:13-35
 	android:name

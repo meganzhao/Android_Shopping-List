@@ -32,16 +32,16 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",

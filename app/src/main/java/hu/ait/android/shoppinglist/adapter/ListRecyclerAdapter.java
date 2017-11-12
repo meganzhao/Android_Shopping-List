@@ -6,18 +6,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.rey.material.widget.CheckBox;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
 
+import hu.ait.android.shoppinglist.EditItemActivity;
 import hu.ait.android.shoppinglist.MainActivity;
 import hu.ait.android.shoppinglist.R;
 import hu.ait.android.shoppinglist.data.Item;
@@ -42,16 +39,12 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
 
         itemList = new ArrayList<>();
         RealmResults<Item> itemResult = realm.where(Item.class).findAll();
-
         for (Item item: itemResult){
             itemList.add(item);
         }
     }
 
-
-
-
-        @Override
+    @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View listRow = LayoutInflater.from(parent.getContext()).inflate(R.layout.item,parent,false);
         return new ViewHolder(listRow);
@@ -61,13 +54,19 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
     public void onBindViewHolder(final ViewHolder holder, int position) {
         final Item itemData = itemList.get(position);
         holder.tvName.setText(itemData.getName());
-        //lots of if statement
-        //holder.ivCategory.setText(itemData.getCategory());
         holder.ivCategory.setImageResource(R.drawable.art);
         holder.tvPrice.setText(Double.toString(itemData.getPrice()));
         holder.tvNote.setText(itemData.getNote());
+        if (itemData.getNote().length() != 0) {
+            holder.tvNote.setVisibility(View.VISIBLE);
+        }
         holder.cbPurchased.setChecked(itemData.isPurchased());
+        onBindViewHolderCategory(holder, itemData);
 
+        setOnClickListeners(holder, itemData);
+    }
+
+    private void setOnClickListeners(final ViewHolder holder, final Item itemData) {
         holder.cbPurchased.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,15 +78,37 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
         holder.btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((MainActivity)context).openEditActivity(
+                ((MainActivity) context).openEditActivity(
                         holder.getAdapterPosition(),
                         itemList.get(holder.getAdapterPosition()).getItemId()
                 );
             }
         });
-
-
     }
+
+    private void onBindViewHolderCategory(ViewHolder holder, Item itemData) {
+        String category = itemData.getCategory();
+        if (category.equals(EditItemActivity.ACCESSORIES)){
+            holder.ivCategory.setImageResource(R.drawable.accessories);
+        } else if (category.equals(EditItemActivity.ART)){
+            holder.ivCategory.setImageResource(R.drawable.art);
+        } else if (category.equals(EditItemActivity.BEAUTY)){
+            holder.ivCategory.setImageResource(R.drawable.beauty);
+        } else if (category.equals(EditItemActivity.CLOTHING)){
+            holder.ivCategory.setImageResource(R.drawable.clothing);
+        } else if (category.equals(EditItemActivity.DRUGS)){
+            holder.ivCategory.setImageResource(R.drawable.drugs);
+        } else if (category.equals(EditItemActivity.ELECTRONICS)){
+            holder.ivCategory.setImageResource(R.drawable.electronics);
+        } else if (category.equals(EditItemActivity.FOOD)){
+            holder.ivCategory.setImageResource(R.drawable.food);
+        } else if (category.equals(EditItemActivity.GIFT)){
+            holder.ivCategory.setImageResource(R.drawable.gift);
+        } else if (category.equals(EditItemActivity.PET)){
+            holder.ivCategory.setImageResource(R.drawable.pet);
+        }
+    }
+
 
     @Override
     public int getItemCount() {
@@ -98,11 +119,9 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
     public void onItemDismiss(int position) {
         String itemDismissId = itemList.get(position).getItemId();
         realm.beginTransaction();
-
         Item itemToBeDeleted = realm.where(Item.class).
                 equalTo("itemId", itemDismissId).findFirst();
         itemToBeDeleted.deleteFromRealm();
-
         realm.commitTransaction();
 
         itemList.remove(position);
@@ -111,52 +130,16 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
 
     @Override
     public void onItemMove(int fromPosition, int toPosition) {
-        //itemMoveInRealm(fromPosition, toPosition);
-        if (fromPosition < toPosition) {
-            for (int i = fromPosition; i < toPosition; i++) {
-                Collections.swap(itemList,i,i+1);
-            }
-        } else {
-            for (int i = fromPosition; i > toPosition; i--) {
-                Collections.swap(itemList,i,i-1);
-            }
-        }
-        notifyItemMoved(fromPosition,toPosition);
     }
-//
-//    private void itemMoveInRealm(int fromPosition, int toPosition) {
-//        realm.beginTransaction();
-//        Item fromItem = realm.where(Item.class).equalTo("itemId", itemList.get(fromPosition).getItemId()).findFirst();
-//        if (fromPosition < toPosition) {
-//            RealmResults<Item> results = realm.where(Item.class)
-//                                                .greaterThan("itemId", fromPosition)
-//                                                .lessThanOrEqualTo("itemId", toPosition)
-//                                                .findAll();
-//            for (int i = 0; i < results.size(); i++) {
-//                //results.get(i).
-//            }
-//        }
-//        itemResult = realm.where(Item.class).findAll();
-//
-//        Item toItem = realm.where(Item.class).equalTo("itemId", itemList.get(toPosition).getItemId()).findFirst();
-//        Item tempItem = new Item(fromItem.getName(),fromItem.getPrice(),
-//                fromItem.getNote(), fromItem.isPurchased());
-//
-//
-//        realm.commitTransaction();
-//    }
 
     public void addItem(String itemName, String itemCategory, double itemPrice, String itemNote, boolean isPurchased) {
         realm.beginTransaction();
-
         Item newItem = realm.createObject(Item.class, UUID.randomUUID().toString());
-
         newItem.setName(itemName);
         newItem.setCategory(itemCategory);
         newItem.setPrice(itemPrice);
         newItem.setNote(itemNote);
         newItem.setIsPurchased(isPurchased);
-
         realm.commitTransaction();
 
         itemList.add(newItem);
@@ -190,7 +173,6 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<ListRecyclerAdapte
 
         public ViewHolder(View itemView) {
             super(itemView);
-
             tvName = itemView.findViewById(R.id.tvName);
             ivCategory = itemView.findViewById(R.id.ivCategory);
             tvPrice = itemView.findViewById(R.id.tvPrice);

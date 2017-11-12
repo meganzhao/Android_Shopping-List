@@ -28,11 +28,11 @@ public class SplashActivity extends AppCompatActivity {
         StartAnimation();
 
         Timer timer = new Timer();
-       final Intent intent = new Intent(this, MainActivity.class);
+        final Intent intent = new Intent(this, MainActivity.class);
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-              startActivity(intent);
+                startActivity(intent);
                 finish();
             }
         }, 3000);
@@ -42,13 +42,13 @@ public class SplashActivity extends AppCompatActivity {
     private void StartAnimation() {
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.alpha);
         anim.reset();
-        LinearLayout linearLayout=(LinearLayout) findViewById(R.id.linearLayout);
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
         linearLayout.clearAnimation();
         linearLayout.startAnimation(anim);
 
         anim = AnimationUtils.loadAnimation(this, R.anim.translate);
         anim.reset();
-        ImageView logo = (ImageView)findViewById(R.id.logo);
+        ImageView logo = (ImageView) findViewById(R.id.logo);
         logo.clearAnimation();
         logo.startAnimation(anim);
     }

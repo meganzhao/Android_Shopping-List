@@ -13,6 +13,8 @@ import android.view.MenuItem;
 import hu.ait.android.shoppinglist.adapter.ListRecyclerAdapter;
 import hu.ait.android.shoppinglist.touch.ShoppingItemTouchHelperCallback;
 
+import static hu.ait.android.shoppinglist.R.*;
+
 public class MainActivity extends AppCompatActivity {
 
     public static final String KEY_ITEM_ID = "KEY_ITEM_ID";
@@ -28,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(layout.activity_main);
 
         ((ListApplication)getApplication()).openRealm();
 
-        RecyclerView recyclerViewList = findViewById(R.id.recyclerItem);
+        RecyclerView recyclerViewList = findViewById(id.recyclerItem);
         adapter = new ListRecyclerAdapter(this,
                 ((ListApplication)getApplication()).getRealm());
         recyclerViewList.setLayoutManager(new LinearLayoutManager(this));
@@ -62,10 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void openEditActivity (int adapterPosition, String itemId) {
         positionToEdit = adapterPosition;
-
         Intent intentEdit = new Intent(this, EditItemActivity.class);
         intentEdit.putExtra(KEY_ITEM_ID, itemId);
-
         startActivityForResult(intentEdit, REQUEST_CODE);
     }
 
@@ -83,29 +83,22 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 String itemName = data.getStringExtra(ITEM_NAME);
                 String itemCategory = data.getStringExtra(ITEM_CATEGORY);
-                Double itemPrice = data.getDoubleExtra(ITEM_PRICE, 0.0);
+                Double itemPrice = data.getDoubleExtra(ITEM_PRICE, 8.0);
                 String itemNote = data.getStringExtra(ITEM_NOTE);
                 boolean isPurchased = data.getBooleanExtra(ITEM_ISPURCHASED, false);
                 adapter.addItem(itemName,itemCategory,itemPrice,itemNote,isPurchased);
             }
-
-
         }
     }
 
-
-
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.add_item){
+        if (item.getItemId() == id.add_item){
             openEditActivityToAddItem();
         }
-        if (item.getItemId() == R.id.delete_list){
+        if (item.getItemId() == id.delete_list){
             adapter.deleteList();
         }
         return super.onOptionsItemSelected(item);
     }
-
-
 }

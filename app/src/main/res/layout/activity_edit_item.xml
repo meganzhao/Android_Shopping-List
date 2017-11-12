@@ -1,60 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
-    android:layout_marginLeft="30dp"
-    android:layout_marginRight="30dp"
-    android:layout_marginTop="30dp">
-
-    <EditText
-        android:id="@+id/etName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:background="#FFFFFF"
-        android:textSize="25sp"
-        android:hint="@string/add_an_item"/>
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:prompt="@string/spinner_title"/>
-
-    <EditText
-        android:id="@+id/etPrice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:background="#FFFFFF"
-        android:textSize="25sp"
-        android:inputType="phone"
-        android:hint="@string/enter_estimated_price"/>
-
-    <EditText
-        android:id="@+id/etNote"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:background="#FFFFFF"
-        android:textSize="25sp"
-        android:hint="@string/add_a_note"/>
-
-    <CheckBox
-        android:id="@+id/cbPurchased"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:textSize="20sp"
-        android:text="@string/already_purchased"/>
-
-    <Button
-        android:id="@+id/btnSave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20sp"
-        android:text="@string/btnSave"/>
+    android:layout_width="match_parent">
 
 
-</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:scrollbars="vertical">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/add_an_item"
+            android:textSize="25sp"
+            app:met_floatingLabel="highlight" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etName"
+            android:layout_marginBottom="15dp"
+            android:prompt="@string/spinner_title" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:hint="Enter the price"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"
+            app:met_floatingLabel="highlight" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPrice"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/add_a_note"
+            android:textSize="25sp"
+            app:met_floatingLabel="highlight" />
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/cbPurchasedEdit"
+            style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etNote"
+            android:layout_marginBottom="18dp"
+            android:text="@string/already_purchased"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21sp"
+            app:cbd_boxSize="18dp"
+            app:cbd_height="19dp"
+            app:cbd_strokeColor="@color/colorPrimary"
+            app:cbd_width="19dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cbPurchasedEdit"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:text="@string/btnSave"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
