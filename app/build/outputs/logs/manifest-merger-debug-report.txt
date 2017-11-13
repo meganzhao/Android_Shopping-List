@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:3:5-42
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:5:5-23:19
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.android/build-cache/43e9c78fd40b0ae4b3c327a3a348d14dbc250edd/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.android/build-cache/12a8a11fc526b57c264a56c7cc9a0c8f9d6ff7e9/output/AndroidManifest.xml:22:5-26:19
@@ -31,43 +31,43 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.and
 MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/AndroidManifest.xml:25:5-29:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.android/build-cache/351a8cb3ab0274d53b41a0ae64669fd0aaaff09b/output/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:9:9-41
 	android:supportsRtl
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:11:9-35
 	android:roundIcon
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:10:9-54
 	android:allowBackup
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:6:9-40
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:6:9-40
 activity#hu.ait.android.shoppinglist.MainActivity
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:13:9-50
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:13:9-50
 	android:name
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:13:19-47
 activity#hu.ait.android.shoppinglist.EditItemActivity
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:14:9-54
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:14:9-54
 	android:name
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:14:19-51
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:14:19-51
 activity#hu.ait.android.shoppinglist.SplashActivity
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:15:9-22:20
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:15:9-22:20
 	android:name
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:16:13-43
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:16:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
-INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [io.realm:realm-android-library:3.0.0] /Users/zhaozhaoxia/.android/build-cache/b855f728f3d98645a0442b7e654d319794da509c/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/zhaozhaoxia/.android/build-cache/74ee2a409d2ae0e2886f446e8a2de3ca8a1b3138/output/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.android/build-cache/43e9c78fd40b0ae4b3c327a3a348d14dbc250edd/output/AndroidManifest.xml:5:5-7:41
@@ -91,11 +91,11 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.android/b
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.android/build-cache/12a8a11fc526b57c264a56c7cc9a0c8f9d6ff7e9/output/AndroidManifest.xml:23:9-25:38

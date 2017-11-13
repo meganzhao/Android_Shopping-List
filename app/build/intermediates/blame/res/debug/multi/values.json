@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -2455,7 +2455,7 @@
                     "endOffset": 10574
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/colors.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2474,7 +2474,7 @@
                     "endOffset": 10621
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/colors.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2493,7 +2493,7 @@
                     "endOffset": 10672
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/colors.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -8041,7 +8041,7 @@
                     "endOffset": 97521
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -8060,7 +8060,7 @@
                     "endOffset": 97573
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -8079,7 +8079,7 @@
                     "endOffset": 97619
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -8098,7 +8098,7 @@
                     "endOffset": 97683
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -8117,7 +8117,7 @@
                     "endOffset": 97733
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -8174,7 +8174,7 @@
                     "endOffset": 98040
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -8193,7 +8193,7 @@
                     "endOffset": 98091
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -8231,7 +8231,7 @@
                     "endOffset": 98230
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -8250,7 +8250,7 @@
                     "endOffset": 98292
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -8364,7 +8364,7 @@
                     "endOffset": 99155
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -8402,7 +8402,7 @@
                     "endOffset": 99259
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/strings.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -8557,7 +8557,7 @@
                     "endOffset": 100378
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/src/main/res/values/styles.xml",
+                    "file": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

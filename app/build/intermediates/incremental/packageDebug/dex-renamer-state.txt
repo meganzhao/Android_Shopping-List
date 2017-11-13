@@ -1,7 +1,7 @@
-#Sun Nov 12 23:24:20 CET 2017
-base.0=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1e72963b5562201b0f5117d994c91b73152f320
+#Mon Nov 13 14:04:43 CET 2017
+base.0=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2307750b844bd08be9ccc370837aa77466d4c2f6
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbe5d484dc40bed55d85949d08c55a5eff096174/classes.dex
-base.1=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbe5d484dc40bed55d85949d08c55a5eff096174
-file.0=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1e72963b5562201b0f5117d994c91b73152f320/classes.dex
+file.1=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c87ca2c529434511118e425e61b632626effdb9e/classes.dex
+base.1=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c87ca2c529434511118e425e61b632626effdb9e
+file.0=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2307750b844bd08be9ccc370837aa77466d4c2f6/classes.dex

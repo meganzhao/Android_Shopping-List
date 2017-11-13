@@ -1,4 +1,4 @@
-#Sun Nov 12 22:32:26 CET 2017
-base.0=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+#Mon Nov 13 14:04:37 CET 2017
+base.0=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
-file.0=/Users/zhaozhaoxia/Desktop/Mobile/ShoppingList/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
+file.0=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
