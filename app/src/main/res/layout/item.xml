@@ -57,6 +57,7 @@
             app:cbd_height="16dp"
             app:cbd_width="16dp"
             app:cbd_boxSize="13dp"
+            android:text="@string/cb_purchased"
             app:cbd_strokeColor="@color/colorPrimary" />
 
         <TextView

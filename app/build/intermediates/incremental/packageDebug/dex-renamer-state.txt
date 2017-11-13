@@ -1,4 +1,4 @@
-#Mon Nov 13 14:04:43 CET 2017
+#Mon Nov 13 16:19:47 CET 2017
 base.0=/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2307750b844bd08be9ccc370837aa77466d4c2f6
 renamed.1=classes2.dex
 renamed.0=classes.dex
