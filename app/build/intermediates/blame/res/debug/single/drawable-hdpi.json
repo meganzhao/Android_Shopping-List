@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/clothing.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/clothing.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/background5.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/background5.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/accessories.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/accessories.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/art.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/art.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/pet.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/pet.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/food.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/food.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/background.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/gift.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/gift.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/beauty.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/beauty.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/electronics.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/electronics.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/met_ic_clear.png",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/2f9571a4c5b1dd23054a3fed26d34db8cb157942/output/res/drawable-hdpi/met_ic_clear.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/edit.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/edit.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/build/intermediates/res/merged/debug/drawable-hdpi/drugs.png",
+        "source": "/Users/zhaozhaoxia/Desktop/Mobile/Android_Shopping-Todo/app/src/main/res/drawable-hdpi/drugs.png"
+    }
+]
