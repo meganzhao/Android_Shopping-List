@@ -3,9 +3,9 @@ A basic shopping list application where users can add, delete and edit the items
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-** Prerequisites
+### Prerequisites
 Android Studio
-** Installing
+### Installing
 ```
 # Clone this repository
 $ git clone https://github.com/meganzhao/Android_Shopping-Todo.git
@@ -13,7 +13,7 @@ $ git clone https://github.com/meganzhao/Android_Shopping-Todo.git
 # Go into the repository
 $ cd Android_Shopping-Todo
 ```
-** Running the app
+### Running the app
 Start Android studio and Import Project 
 
 ## App Demo
